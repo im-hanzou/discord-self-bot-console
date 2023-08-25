@@ -107,8 +107,7 @@ const fetch = require('node-fetch')
 
 // Your script
 ;(async () => {
-  // Send 10 messages
-  let channelId = 'YOUR_CHANNEL_ID' // channel ID
+let channelId = 'YOUR_CHANNEL_ID' // channel ID
 let greetings = ["Hey there!", "What's up?", "Hey buddy!", "Yo, how's it going?", "Eh, what's the scoop?", "Whatcha up to, my friend?", "Hello, how's life?", "Hey, any news?", "How's it hanging, mate?", "Hey, how are you?"];
 let questions = ["How's it going?", "Got any gossip?", "Anything cool happening?", "Planning anything fun?", "Did you eat yet?", "What are you up to?", "Busy with something?", "By the way, what's your favorite hobby?", "Got any plans, wanna join?", "Watched any good movies lately?"];
 let emotions = ["😄", "😂", "🤙", "😎", "🤪", "🔥", "👌", "👏", "🙌", "💯"];
