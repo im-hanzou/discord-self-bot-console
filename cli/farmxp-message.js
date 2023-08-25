@@ -122,7 +122,7 @@ while (loop) {
   let randomEmotion2 = emotions[Math.floor(Math.random() * emotions.length)];
   let randomVerb = verbs[Math.floor(Math.random() * verbs.length)];
 
-  let message = `${randomGreeting} ${randomQuestion} ${randomVerb} ${randomEmotion1}${randomEmotion2}?`;
+  let message = `${randomGreeting} ${randomQuestion} ${randomVerb}? ${randomEmotion1}${randomEmotion2}`;
 
   const sentMessage = await api.sendMessage(channelId, message);
   console.log(`Sent ${++count} messages`);
