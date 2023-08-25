@@ -125,7 +125,7 @@ var cid = 'YOUR_CHANNEL_ID' // your channel ID
         await api.addReaction(cid, latestMessage.id, reaction);
       }
 
-      console.log(`Reacted to the latest message. ID=${latestMessage.id}`);
+      console.log(`Reacted to the latest message. MessageID => ${latestMessage.id}`);
     }
 
     await new Promise(resolve => setTimeout(resolve, 1000)); // Wait for 1 second before checking again
